@@ -1,0 +1,2 @@
+#!/bin/bash
+count=$(IFS=":"; set -- $PATH; echo $#); echo "Number of directories in PATH: $count"
